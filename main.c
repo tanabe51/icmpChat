@@ -47,10 +47,10 @@ int main(int argc,char *argv[])
 {
 	int driver;
 	int len;
-	char *hdst = "08:00:27:66:5d:29";
-	char *hsrc = "c4:b3:01:bf:9a:ed";
-	char *psrc = "192.168.1.7";
-	char *pdst = "192.168.1.5";
+	char *hdst = "";
+	char *hsrc = "";
+	char *psrc = "192.168.1.";
+	char *pdst = "192.168.1.";
 
 	driver = DriverUp(argv[1],0,0);
 	pthread_t getMes;
